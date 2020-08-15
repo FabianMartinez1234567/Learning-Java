@@ -4,9 +4,10 @@ public class owo
 	{
 		int numero1 = 3;
 		int numero2 = 6;
-		int resultado = 0;
-		resultado = numero1+numero2;
-		System.out.println("El resultado es:  "+ resultado);
+		int numero3 = 4;
+		float promedio = 0;
+		promedio = (numero1 + numero2 + numero3)/3;
+		System.out.println("El resultado es:  "+ promedio);
 
 	}
 } 
