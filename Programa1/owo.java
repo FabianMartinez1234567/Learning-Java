@@ -2,20 +2,29 @@ public class owo
 {
 	public static void main(String args[])
 	{
-		int numero1 = 10;
-		int numero2 = 10;
-		int numero3 = 11;
-		float promedio = 0;
-		promedio = (numero1 + numero2 + numero3)/3;
-		System.out.println("El resultado es:  "+ promedio);
-		if(promedio>=6)
+		int operacion=8;
+		int numero1=8;
+		int numero2=4;
+		int resultado=0;
+		if (operacion==1)
 		{
-		System.out.println("El alumno aprobo con:"+ promedio);
-		}
-		else
+			resultado=numero1+numero2;
+			System.out.println("El resultado de la suma es: "+ resultado);
+		}else if(operacion==2)
 		{
-		System.out.println("El alumno desaprobo con: "+ promedio);
+			resultado=numero1-numero2;
+			System.out.println("El resultado de la resta es: "+ resultado);
+		}else if(operacion==3)
+		{
+			resultado=numero1*numero2;
+			System.out.println("El resultado de la multiplicacion es: "+ resultado);
+		}else if(operacion==4)
+		{
+			resultado=numero1/numero2;
+			System.out.println("El resultado de la divicion es: "+ resultado);
 		}
-
+		else 
+			System.out.println("No hay una opcion para este numero ");
+			
 	}
 } 
