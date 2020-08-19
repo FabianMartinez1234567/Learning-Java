@@ -4,19 +4,32 @@ public class DatosPorTeclado
 {
 	public static void main(String args[])
 	{
-		Scanner in = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 		String nombre = "";
-		int numero1 = 0, numero2 = 0, resultado = 0;
-		System.out.println("Cual es tu nombre?");
-		nombre = in.nextLine();				
+		int clave=0, antiguedad=0;
+		System.out.println("Bienvenido");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("Cual es el nombre del trabajador");
+		nombre=entrada.nextLine();
+		System.out.println("");
 		
-		System.out.println("Ingrese el primer numero: ");
-		numero1 = in.nextInt();
+		System.out.println("Cuanto tiempo tiene trabajando el pendejo?");
+		antiguedad=entrada.nextInt();	
+		System.out.println("");
+
+		System.out.println("Cual es la clave del trabajador?");
+		clave=entrada.nextInt();
+		System.out.println("");
 		
-		System.out.println("Ingrese el segundo numero: ");
-		numero2 = in.nextInt();
-	
-		resultado = numero1 + numero2;
-		System.out.println("Hola "+ nombre +" El resultado de tu suma es: " + resultado);
+		if(clave==1){
+		
+		}else if(clave==2){
+		
+		}else if(clave==3){
+		}else
+		{
+			System.out.println("La clave es incorrecta")
+		}
 	}
-} 
+}  
